@@ -9,14 +9,16 @@ class ColorSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Color
-        fields = ["red, blue, green"]
+        fields = ["red", "blue", "green"]
 
 
-class SwatchSerializer(serializers.Serializer):
+class SwatchSerializer(serializers.ModelSerializer):
     """
     For transporting swatch data
     """
 
+    colors = ColorSerializer(many=True)
+
     class Meta:
         model = Swatch
-        colors = ColorSerializer(many=True)
+        fields = "__all__"

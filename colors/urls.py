@@ -10,5 +10,6 @@ router.register(r"swatches", views.SwatchViewSet)
 
 urlpatterns = [
     path("admin/", admin.site.urls),
+    path("swatches/new/", views.get_new_swatch, name="get_new_swatch"),
     path("", include(router.urls)),
 ]
