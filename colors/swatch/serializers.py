@@ -2,9 +2,9 @@ from rest_framework import serializers
 from .models import Swatch, Color
 
 
-class ColorSerializer(serializers.ModelSerializer):
+class SRGBColorSerializer(serializers.ModelSerializer):
     """
-    For transporting color data
+    For transporting color data in SRGB format
     """
 
     class Meta:
@@ -12,13 +12,34 @@ class ColorSerializer(serializers.ModelSerializer):
         fields = ["red", "blue", "green"]
 
 
+class HSLColorSerializer(serializers.ModelSerializer):
+    """
+    For transporting color data in HSL format
+    """
+
+    hue = serializers.DecimalField(
+        source="hls_hue", max_digits=3, decimal_places=0
+    )
+    saturation = serializers.DecimalField(
+        source="hls_saturation", max_digits=3, decimal_places=0
+    )
+    lightness = serializers.DecimalField(
+        source="hls_lightness", max_digits=3, decimal_places=0
+    )
+
+    class Meta:
+        model = Color
+        fields = ["hue", "saturation", "lightness"]
+
+
 class SwatchSerializer(serializers.ModelSerializer):
     """
     For transporting swatch data
     """
 
-    colors = ColorSerializer(many=True)
+    srgb_colors = SRGBColorSerializer(many=True, source="colors")
+    hsl_colors = HSLColorSerializer(many=True, source="colors")
 
     class Meta:
         model = Swatch
-        fields = "__all__"
+        fields = ["id", "srgb_colors", "hsl_colors"]

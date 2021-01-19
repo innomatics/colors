@@ -1,0 +1,587 @@
+[
+  {
+    "model": "swatch.color",
+    "pk": 1,
+    "fields": {
+      "red": 149,
+      "green": 8,
+      "blue": 165
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 2,
+    "fields": {
+      "red": 156,
+      "green": 24,
+      "blue": 193
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 3,
+    "fields": {
+      "red": 29,
+      "green": 22,
+      "blue": 182
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 4,
+    "fields": {
+      "red": 32,
+      "green": 149,
+      "blue": 135
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 5,
+    "fields": {
+      "red": 114,
+      "green": 194,
+      "blue": 93
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 6,
+    "fields": {
+      "red": 30,
+      "green": 52,
+      "blue": 149
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 7,
+    "fields": {
+      "red": 114,
+      "green": 113,
+      "blue": 204
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 8,
+    "fields": {
+      "red": 243,
+      "green": 204,
+      "blue": 194
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 9,
+    "fields": {
+      "red": 234,
+      "green": 57,
+      "blue": 208
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 10,
+    "fields": {
+      "red": 182,
+      "green": 21,
+      "blue": 110
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 11,
+    "fields": {
+      "red": 141,
+      "green": 28,
+      "blue": 75
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 12,
+    "fields": {
+      "red": 87,
+      "green": 232,
+      "blue": 241
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 13,
+    "fields": {
+      "red": 113,
+      "green": 65,
+      "blue": 67
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 14,
+    "fields": {
+      "red": 168,
+      "green": 235,
+      "blue": 166
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 15,
+    "fields": {
+      "red": 197,
+      "green": 30,
+      "blue": 47
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 16,
+    "fields": {
+      "red": 99,
+      "green": 130,
+      "blue": 77
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 17,
+    "fields": {
+      "red": 60,
+      "green": 12,
+      "blue": 197
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 18,
+    "fields": {
+      "red": 243,
+      "green": 205,
+      "blue": 113
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 19,
+    "fields": {
+      "red": 51,
+      "green": 150,
+      "blue": 175
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 20,
+    "fields": {
+      "red": 10,
+      "green": 12,
+      "blue": 156
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 21,
+    "fields": {
+      "red": 82,
+      "green": 74,
+      "blue": 71
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 22,
+    "fields": {
+      "red": 193,
+      "green": 144,
+      "blue": 161
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 23,
+    "fields": {
+      "red": 211,
+      "green": 242,
+      "blue": 244
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 24,
+    "fields": {
+      "red": 122,
+      "green": 144,
+      "blue": 83
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 25,
+    "fields": {
+      "red": 224,
+      "green": 133,
+      "blue": 168
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 26,
+    "fields": {
+      "red": 115,
+      "green": 119,
+      "blue": 241
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 27,
+    "fields": {
+      "red": 37,
+      "green": 234,
+      "blue": 27
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 28,
+    "fields": {
+      "red": 16,
+      "green": 146,
+      "blue": 86
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 29,
+    "fields": {
+      "red": 33,
+      "green": 35,
+      "blue": 227
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 30,
+    "fields": {
+      "red": 104,
+      "green": 108,
+      "blue": 118
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 31,
+    "fields": {
+      "red": 203,
+      "green": 99,
+      "blue": 235
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 32,
+    "fields": {
+      "red": 124,
+      "green": 108,
+      "blue": 55
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 33,
+    "fields": {
+      "red": 143,
+      "green": 128,
+      "blue": 197
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 34,
+    "fields": {
+      "red": 175,
+      "green": 223,
+      "blue": 207
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 35,
+    "fields": {
+      "red": 53,
+      "green": 242,
+      "blue": 120
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 36,
+    "fields": {
+      "red": 155,
+      "green": 230,
+      "blue": 58
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 37,
+    "fields": {
+      "red": 130,
+      "green": 6,
+      "blue": 4
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 38,
+    "fields": {
+      "red": 1,
+      "green": 11,
+      "blue": 30
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 39,
+    "fields": {
+      "red": 179,
+      "green": 3,
+      "blue": 152
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 40,
+    "fields": {
+      "red": 69,
+      "green": 244,
+      "blue": 41
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 41,
+    "fields": {
+      "red": 229,
+      "green": 93,
+      "blue": 48
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 42,
+    "fields": {
+      "red": 86,
+      "green": 184,
+      "blue": 253
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 43,
+    "fields": {
+      "red": 56,
+      "green": 186,
+      "blue": 147
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 44,
+    "fields": {
+      "red": 124,
+      "green": 167,
+      "blue": 42
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 45,
+    "fields": {
+      "red": 255,
+      "green": 62,
+      "blue": 53
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 46,
+    "fields": {
+      "red": 192,
+      "green": 3,
+      "blue": 228
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 47,
+    "fields": {
+      "red": 208,
+      "green": 223,
+      "blue": 106
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 48,
+    "fields": {
+      "red": 231,
+      "green": 113,
+      "blue": 10
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 49,
+    "fields": {
+      "red": 11,
+      "green": 228,
+      "blue": 115
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 50,
+    "fields": {
+      "red": 0,
+      "green": 47,
+      "blue": 145
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 51,
+    "fields": {
+      "red": 80,
+      "green": 230,
+      "blue": 81
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 52,
+    "fields": {
+      "red": 174,
+      "green": 73,
+      "blue": 171
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 53,
+    "fields": {
+      "red": 199,
+      "green": 187,
+      "blue": 174
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 54,
+    "fields": {
+      "red": 195,
+      "green": 215,
+      "blue": 212
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 55,
+    "fields": {
+      "red": 177,
+      "green": 146,
+      "blue": 194
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 56,
+    "fields": {
+      "red": 103,
+      "green": 91,
+      "blue": 80
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 57,
+    "fields": {
+      "red": 138,
+      "green": 231,
+      "blue": 4
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 58,
+    "fields": {
+      "red": 149,
+      "green": 72,
+      "blue": 18
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 59,
+    "fields": {
+      "red": 239,
+      "green": 123,
+      "blue": 165
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 60,
+    "fields": {
+      "red": 249,
+      "green": 38,
+      "blue": 73
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 61,
+    "fields": {
+      "red": 247,
+      "green": 199,
+      "blue": 174
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 62,
+    "fields": {
+      "red": 161,
+      "green": 108,
+      "blue": 238
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 63,
+    "fields": {
+      "red": 133,
+      "green": 209,
+      "blue": 69
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 64,
+    "fields": {
+      "red": 105,
+      "green": 56,
+      "blue": 64
+    }
+  },
+  {
+    "model": "swatch.color",
+    "pk": 65,
+    "fields": {
+      "red": 79,
+      "green": 107,
+      "blue": 78
+    }
+  }
+]

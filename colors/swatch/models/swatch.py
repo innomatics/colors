@@ -1,12 +1,16 @@
 from django.db import models
-from .color import Color, create_random_color
+from .color import Color
 
 
 class SwatchManager(models.Manager):
+    """
+    Manager of the Swatch model
+    """
+
     def create_random_swatch(self, numcolors=5):
         colors = []
         for i in range(numcolors):
-            colors.append(create_random_color())
+            colors.append(Color.objects.create_random_color())
         swatch = Swatch.objects.create()
         swatch.colors.set(colors)
         return swatch
