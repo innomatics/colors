@@ -45,20 +45,33 @@ class Color(models.Model):
 
     @cached_property
     def hsl(self):
-        return colorsys.rgb_to_hls(
-            int8_to_float(self.red),
-            int8_to_float(self.green),
-            int8_to_float(self.blue),
+        """
+        HSL representation instance is cached so calculated only once
+        :return:
+        """
+        return HSL(self)
+
+
+class HSL:
+    """
+    HSL representation of color as passed to constructor
+    """
+
+    def __init__(self, color):
+        self.hsl = colorsys.rgb_to_hls(
+            int8_to_float(color.red),
+            int8_to_float(color.green),
+            int8_to_float(color.blue),
         )
 
     @property
-    def hsl_hue(self):
+    def hue(self):
         return float_to_degrees(self.hsl[0])
 
     @property
-    def hsl_lightness(self):
+    def lightness(self):
         return self.hsl[1]
 
     @property
-    def hsl_saturation(self):
+    def saturation(self):
         return self.hsl[2]

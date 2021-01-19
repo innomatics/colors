@@ -18,13 +18,13 @@ class HSLColorSerializer(serializers.ModelSerializer):
     """
 
     hue = serializers.DecimalField(
-        source="hsl_hue", max_digits=5, decimal_places=2
+        source="hsl.hue", max_digits=5, decimal_places=2
     )
     saturation = serializers.DecimalField(
-        source="hsl_saturation", max_digits=5, decimal_places=4
+        source="hsl.saturation", max_digits=5, decimal_places=4
     )
     lightness = serializers.DecimalField(
-        source="hsl_lightness", max_digits=5, decimal_places=4
+        source="hsl.lightness", max_digits=5, decimal_places=4
     )
 
     class Meta:
