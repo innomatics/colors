@@ -8,8 +8,8 @@ def int8_to_float(int8_val):
     return float(int8_val) / 255.0
 
 
-def float_to_int(float_val):
-    return round(float_val * 255.0)
+def float_to_degrees(float_val):
+    return (1 - float_val) * 360.0
 
 
 class ColorManager(models.Manager):
@@ -44,7 +44,7 @@ class Color(models.Model):
         ]
 
     @cached_property
-    def hls(self):
+    def hsl(self):
         return colorsys.rgb_to_hls(
             int8_to_float(self.red),
             int8_to_float(self.green),
@@ -52,13 +52,13 @@ class Color(models.Model):
         )
 
     @property
-    def hls_hue(self):
-        return float_to_int(self.hls[0])
+    def hsl_hue(self):
+        return float_to_degrees(self.hsl[0])
 
     @property
-    def hls_lightness(self):
-        return float_to_int(self.hls[1])
+    def hsl_lightness(self):
+        return self.hsl[1]
 
     @property
-    def hls_saturation(self):
-        return float_to_int(self.hls[2])
+    def hsl_saturation(self):
+        return self.hsl[2]
