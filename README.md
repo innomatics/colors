@@ -19,7 +19,7 @@ pip install -r requirements.txt
 GET http://localhost:8000/swatches/new
 
 ### View all previously generated swatches
-GET http://localhost:8000/swatches/new
+GET http://localhost:8000/swatches
 
 ## Adding a new color space
 
